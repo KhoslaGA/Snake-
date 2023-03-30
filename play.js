@@ -1,10 +1,10 @@
 const { connect } = require('./client');
 const { setupInput } = require('./input.js');
-const { IP, PORT} = require("./constants.js")
+const { IP, PORT } = require("./constants.js")
 
 const connection = connect();
 
-console.log('Connecting ...');
+console.log('Connecting ... ');
 
 setupInput(connection);
 
